@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="UI.Web.Site" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+   
+    <head id="Head1" runat="server">
+        <title>Academia</title>
+            <link rel="Stylesheet" type="text/css"  href="App_Themes/Default/Style.css"/>
+        <style type="text/css">
+           
+            .nuevoEstilo2 {
+                font-family: Verdana;
+            }
+            .nuevoEstilo3 {
+                font-family: "Century Gothic";
+            }
+        </style>
+    </head>
+    
+    <body style="background-color:#D9EFF0">
+        <form id="bodyForm" runat="server" >
+        <table border="1" cellpadding="0" cellSpacing="0" width="100%">
+        <!-- site header -->
+    <tr > 
+        <td colspan="2" align="center" Class="title1"> <span class="nuevoEstilo3">SISTEMA DE GESTION ACADEMICA</span></td>
+    </tr>
+    <tr>
+    <!-- site navigation -->
+        <td valign="top" width="200px">
+            <br />
+            <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource" CssClass="nuevoEstilo2" >
+            </asp:TreeView>
+                </td>
+    <td align="center" id="table">
+    <!-- this is the placeholder for the page content -->
+    <div class="bodyContent">
+            <br />
+            <asp:ContentPlaceHolder ID="bodyContentPlaceHolder" runat="server" />
+            <br />
+    </div>
+    </td>
+    </tr>
+    </table> 
+    <!-- site footer -->
+    <table cellpadding="0" cellSpacing="0" width="100%" class="footer">
+    <tr>
+        <td>
+        <b>Universidad Tecnológica Nacional</b>
+        <br />Tecnologías de Desarrollo de Software IDE.NET
+        </td>
+        <td > 
+            Trabajo Práctico Número 2
+        <br/>     
+           Integrantes: Mariana Sánchez
+        </td> 
+        </tr>
+     </table>   
+     <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" />
+        </form>
+    </body>
+</html>

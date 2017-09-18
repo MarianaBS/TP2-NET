@@ -1,0 +1,45 @@
+﻿body
+{
+	background-color: #D9EFF0;
+	width: 100%;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.footer
+{
+	font-family: verdana;
+	font-size: xx-small;
+	/*color: #008A48;*/
+	text-align: left;
+}
+
+.GridView
+{
+	width: 590px;
+} 
+.title1
+{
+	font-family: 'Century Gothic';
+	font-size: 40px;
+	color: #53536F;
+	text-decoration: underline;
+}
+.bodyContent
+{
+	height:550px;
+	width:650px;
+}
+
+.formPanel
+{
+	
+}
+
+.gridPanel
+{
+
+}
+.menu1
+{
+	width: 250px;
+}
