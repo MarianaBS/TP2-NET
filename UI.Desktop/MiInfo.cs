@@ -71,16 +71,20 @@ namespace UI.Desktop
                         new UsuarioLogic().Save(User);
                     }
                 }
-                else if (txtMPass.Text == string.Empty)
-                {
-                    MessageBox.Show("La contraseña no puede estar vacía");
+
+                else if (cbCambiaPass.Checked == false) {
+
+                    if (txtMPass.Text == string.Empty)
+                    {
+                        MessageBox.Show("La contraseña no puede estar vacía");
+
+                    }
+                    else if (txtMPass.Text == User.Clave)
+                    {
+                        User.State = BusinessEntity.States.Modified;
+                        new UsuarioLogic().Save(User);
+                    }
                 }
-                else if (txtMPass.Text == User.Clave)
-                {
-                    User.State = BusinessEntity.States.Modified;
-                    new UsuarioLogic().Save(User);
-                }
-                
             }
             catch (Exception ex)
             {
