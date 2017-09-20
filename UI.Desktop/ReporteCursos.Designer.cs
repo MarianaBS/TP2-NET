@@ -58,6 +58,7 @@
             this.Name = "formRCursos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reporte de cursos";
+            this.Load += new System.EventHandler(this.formRCursos_Load);
             this.ResumeLayout(false);
 
         }
@@ -66,5 +67,6 @@
 
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crvCursos;
         private CursosODBC CursosODBC1;
+        
     }
 }

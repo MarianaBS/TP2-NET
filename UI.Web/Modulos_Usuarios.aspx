@@ -15,7 +15,7 @@
             <asp:BoundField HeaderText="IDModulo" DataField="IdModulo" />
             <asp:CheckBoxField HeaderText="PermiteAlta" DataField="PermiteAlta" />
             <asp:CheckBoxField HeaderText="PermiteBaja" DataField="PermiteBaja" />
-            <asp:CheckBoxField HeaderText="PermiteModificacion " DataField="PermiteModificacion" />
+            <asp:CheckBoxField HeaderText="PermiteModificación " DataField="PermiteModificacion" />
             <asp:CheckBoxField HeaderText="PermiteConsulta" DataField="PermiteConsulta" />
             <asp:CommandField SelectText="Seleccionar" ShowSelectButton="true" />            
         </Columns>
@@ -64,7 +64,7 @@
             </tr>
             <tr>
                 <td >
-                    <asp:Label ID="lblUsuario" runat="server" Text="Nombre y apellido" />
+                    <asp:Label ID="lblUsuario" runat="server" Text="Nombre y Apellido" />
                 </td>
                 <td style="width: 128px" >
                     <asp:TextBox ID="txtApyNom" runat="server" Enabled="False"></asp:TextBox>
@@ -74,7 +74,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="lblModulo" runat="server" Text="IDModulo" />
+                    <asp:Label ID="lblModulo" runat="server" Text="IDMódulo" />
                 </td>
                 <td style="width: 128px">
                     <asp:DropDownList ID="ddlModulo" runat="server" AutoPostBack="True" 
@@ -87,7 +87,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Label2" runat="server" Text="Descripcion"></asp:Label>
+                    <asp:Label ID="Label2" runat="server" Text="Descripción"></asp:Label>
                 </td>
                 <td style="width: 128px">
                     <asp:TextBox ID="txtDescripcionModulo" runat="server" Enabled="False"></asp:TextBox>
@@ -117,7 +117,7 @@
             </tr>
             <tr>
                 <td >
-                    <asp:Label ID="clblModificacion" runat="server" Text="PermiteModificacion " />
+                    <asp:Label ID="clblModificacion" runat="server" Text="PermiteModificación " />
                 </td>
                 <td style="width: 128px" >
                     <asp:CheckBox ID="chbModifcado" runat="server" />

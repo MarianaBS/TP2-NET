@@ -10,7 +10,7 @@
         CellPadding="4" ForeColor="#333333" GridLines="None" CssClass="GridView">
         <RowStyle BackColor="#E3EAEB"/>
     <Columns>
-        <asp:BoundField HeaderText="Descripcion" DataField="Descripcion" />
+        <asp:BoundField HeaderText="Descripción" DataField="Descripcion" />
         <asp:BoundField HeaderText="Ejecuta " DataField="Ejecuta"/>
         <asp:CommandField SelectText="Seleccionar" ShowSelectButton="true" />            
     </Columns>
@@ -46,7 +46,7 @@
         </tr>
         <tr>
             <td>
-                <asp:Label ID="lblDescripcion" runat="server" Text="Descripcion" />
+                <asp:Label ID="lblDescripcion" runat="server" Text="Descripción" />
             </td>
             <td >
                 <asp:TextBox ID="txtDescripcion" runat="server" Width="176px"></asp:TextBox>

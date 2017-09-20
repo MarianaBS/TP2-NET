@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
    
     <head id="Head1" runat="server">
-        <title>Academia</title>
+        <title>Gestión Académica</title>
             <link rel="Stylesheet" type="text/css"  href="App_Themes/Default/Style.css"/>
         <style type="text/css">
            

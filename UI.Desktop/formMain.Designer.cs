@@ -67,14 +67,14 @@
             // mnuArchivoDesconectarse
             // 
             this.mnuArchivoDesconectarse.Name = "mnuArchivoDesconectarse";
-            this.mnuArchivoDesconectarse.Size = new System.Drawing.Size(142, 22);
+            this.mnuArchivoDesconectarse.Size = new System.Drawing.Size(152, 22);
             this.mnuArchivoDesconectarse.Text = "Cerrar sesión";
             this.mnuArchivoDesconectarse.Click += new System.EventHandler(this.mnuArchivoDesconectarse_Click);
             // 
             // mnuSalir
             // 
             this.mnuSalir.Name = "mnuSalir";
-            this.mnuSalir.Size = new System.Drawing.Size(142, 22);
+            this.mnuSalir.Size = new System.Drawing.Size(152, 22);
             this.mnuSalir.Text = "Salir";
             this.mnuSalir.Click += new System.EventHandler(this.mnuSalir_Click_1);
             // 
@@ -158,14 +158,14 @@
             // 
             this.mnuVerInsalum.Name = "mnuVerInsalum";
             this.mnuVerInsalum.Size = new System.Drawing.Size(185, 22);
-            this.mnuVerInsalum.Text = "Inscripcion a cursos";
+            this.mnuVerInsalum.Text = "Inscripción a cursos";
             this.mnuVerInsalum.Click += new System.EventHandler(this.mnuVerInsalum_Click);
             // 
             // mnuVerModulos
             // 
             this.mnuVerModulos.Name = "mnuVerModulos";
             this.mnuVerModulos.Size = new System.Drawing.Size(185, 22);
-            this.mnuVerModulos.Text = "Modulos";
+            this.mnuVerModulos.Text = "Módulos";
             this.mnuVerModulos.Click += new System.EventHandler(this.mnuVerModulos_Click);
             // 
             // mnuVerPermisosuser
@@ -200,8 +200,8 @@
             // mnuReportesCursos
             // 
             this.mnuReportesCursos.Name = "mnuReportesCursos";
-            this.mnuReportesCursos.Size = new System.Drawing.Size(110, 22);
-            this.mnuReportesCursos.Text = "Cursos";
+            this.mnuReportesCursos.Size = new System.Drawing.Size(154, 22);
+            this.mnuReportesCursos.Text = "Reporte Cursos";
             this.mnuReportesCursos.Click += new System.EventHandler(this.mnuReportesCursos_Click);
             // 
             // mnuAyuda
@@ -215,7 +215,7 @@
             // mnuAyudaInfo
             // 
             this.mnuAyudaInfo.Name = "mnuAyudaInfo";
-            this.mnuAyudaInfo.Size = new System.Drawing.Size(135, 22);
+            this.mnuAyudaInfo.Size = new System.Drawing.Size(152, 22);
             this.mnuAyudaInfo.Text = "Acerca de...";
             this.mnuAyudaInfo.Click += new System.EventHandler(this.mnuAyudaInfo_Click);
             // 

@@ -69,7 +69,7 @@
                     <td>
                         <asp:RequiredFieldValidator ID="rfdNombre" runat="server" 
                             ControlToValidate="txtNombre" Display="Dynamic" 
-                            ErrorMessage="El nombre no puede estar vacio">*</asp:RequiredFieldValidator>
+                            ErrorMessage="El nombre no puede estar vacío">*</asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
@@ -82,7 +82,7 @@
                     <td>
                         <asp:RequiredFieldValidator ID="rfvApellido" runat="server" 
                             ControlToValidate="txtApellido" Display="Dynamic" 
-                            ErrorMessage="El apellido no puede estar vacio">*</asp:RequiredFieldValidator>
+                            ErrorMessage="El apellido no puede estar vacío">*</asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
@@ -119,7 +119,7 @@
                     <td>
                         <asp:RequiredFieldValidator ID="rfdNombreUsuario" runat="server" 
                             ControlToValidate="txtNombreUsuario" Display="Dynamic" 
-                            ErrorMessage="El nombre de usuario no puede estar vacio">*</asp:RequiredFieldValidator>
+                            ErrorMessage="El nombre de usuario no puede estar vacío">*</asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>

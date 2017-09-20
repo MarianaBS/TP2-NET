@@ -9,9 +9,9 @@
         CellPadding="4" ForeColor="#333333" GridLines="None" CssClass="GridView">
         <RowStyle BackColor="#E3EAEB"/>
     <Columns>
-    <asp:BoundField HeaderText="Descripcion" DataField="Descripcion" />
-    <asp:BoundField HeaderText="HSSemanales" DataField="HSSemanales" />
-    <asp:BoundField HeaderText="HSTotales" DataField="HSTotales" />
+    <asp:BoundField HeaderText="Descripción" DataField="Descripcion" />
+    <asp:BoundField HeaderText="Hs.Semanales" DataField="HSSemanales" />
+    <asp:BoundField HeaderText="Hs.Totales" DataField="HSTotales" />
     <asp:BoundField HeaderText="IdPlan" DataField="IdPlan" />
     <asp:CommandField SelectText="Seleccionar" ShowSelectButton="true" />
     </Columns>
@@ -42,7 +42,7 @@
                 </tr>
                 <tr>
                     <td >
-                        <asp:Label ID="descripcionLabel" runat="server" Text="Descripcion" />
+                        <asp:Label ID="descripcionLabel" runat="server" Text="Descripción" />
                     </td>
                     <td >
                         <asp:TextBox ID="txtDescripcion" runat="server"></asp:TextBox>
@@ -52,7 +52,7 @@
                 </tr>
                 <tr>
                     <td >
-                        <asp:Label ID="hssemanalesLabel" runat="server" Text="HSSemanales " />
+                        <asp:Label ID="hssemanalesLabel" runat="server" Text="Hs.Semanales " />
                     </td>
                     <td >
                         <asp:TextBox ID="txtHSSemanales" runat="server" />
@@ -62,7 +62,7 @@
                 </tr>
                 <tr>
                     <td >
-                        <asp:Label ID="HSTotalesLabel" runat="server" Text="HorasTotales" />
+                        <asp:Label ID="HSTotalesLabel" runat="server" Text="Hs.Totales" />
                     </td>
                     <td >
                         <asp:TextBox ID="txtHSTotales" runat="server" />

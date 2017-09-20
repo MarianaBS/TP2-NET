@@ -17,5 +17,10 @@ namespace UI.Desktop
         {
             InitializeComponent();
         }
+
+        private void formRCursos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

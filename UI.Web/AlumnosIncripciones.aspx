@@ -12,7 +12,7 @@
             <Columns>
                 <asp:BoundField HeaderText="IDAlumno" DataField="IDAlumno" />
                 <asp:BoundField HeaderText="IDCurso" DataField="IDCurso" />
-                <asp:BoundField HeaderText="Condicion" DataField="Condicion" />
+                <asp:BoundField HeaderText="Condición" DataField="Condicion" />
                 <asp:BoundField HeaderText="Nota" DataField="Nota" />
                 <asp:CommandField SelectText="Seleccionar" ShowSelectButton="true" />            
             </Columns>
@@ -61,7 +61,7 @@
                 </tr>
                 <tr>
                     <td >
-                        <asp:Label ID="lblNyAAlumno" runat="server" Text="Nombre y apellido" />
+                        <asp:Label ID="lblNyAAlumno" runat="server" Text="Nombre y Apellido" />
                     </td>
                     <td >
                         <asp:TextBox ID="txtAlumno" runat="server" Enabled="False"></asp:TextBox>
@@ -82,7 +82,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Label ID="lblCondicion" runat="server" Text="Condicion" />
+                        <asp:Label ID="lblCondicion" runat="server" Text="Condición" />
                     </td>
                     <td >
                         <asp:TextBox ID="txtCondicion" runat="server" />

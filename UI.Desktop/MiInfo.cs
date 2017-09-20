@@ -73,7 +73,7 @@ namespace UI.Desktop
                 }
                 else if (txtMPass.Text == string.Empty)
                 {
-                    MessageBox.Show("La contraseña no puede estar vacia");
+                    MessageBox.Show("La contraseña no puede estar vacía");
                 }
                 else if (txtMPass.Text == User.Clave)
                 {

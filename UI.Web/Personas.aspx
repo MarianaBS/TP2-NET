@@ -15,7 +15,7 @@
         <asp:BoundField HeaderText="Tipo" DataField="TipoPersona" />
         <asp:BoundField HeaderText="Apellido" DataField="Apellido" />
         <asp:BoundField HeaderText="Nombre" DataField="Nombre" /> 
-        <asp:BoundField HeaderText="Telefono" DataField="Telefono" />
+        <asp:BoundField HeaderText="Teléfono" DataField="Telefono" />
         <asp:CommandField SelectText="Seleccionar" ShowSelectButton="true" />            
     </Columns>
         <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
@@ -79,7 +79,7 @@
         </tr>
         <tr>
             <td>
-                <asp:Label ID="direccionLabel" runat="server" Text="Direccion" />
+                <asp:Label ID="direccionLabel" runat="server" Text="Dirección" />
             </td>
             <td >
                 <asp:TextBox ID="txtDireccion" runat="server" />
@@ -109,7 +109,7 @@
         </tr>
         <tr>
             <td >
-                <asp:Label ID="telefonoLabel" runat="server" Text="Telefono" />
+                <asp:Label ID="telefonoLabel" runat="server" Text="Teléfono" />
             </td>
             <td>
                 <asp:TextBox ID="txtTelefono" runat="server" />

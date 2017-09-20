@@ -10,7 +10,7 @@
         CellPadding="4" ForeColor="#333333" GridLines="None" CssClass="GridView">
         <RowStyle BackColor="#E3EAEB" />
     <Columns>
-        <asp:BoundField HeaderText="Descripcion" DataField="Descripcion" />
+        <asp:BoundField HeaderText="Descripción" DataField="Descripcion" />
         <asp:BoundField HeaderText="IDPlan" DataField="IDPlan" />
         <asp:BoundField HeaderText="Año Especialidad" DataField="AnioEspecialidad" />
         <asp:CommandField SelectText="Seleccionar" ShowSelectButton="true" />           
@@ -36,7 +36,7 @@
     <table >
         <tr>
             <td >
-                <asp:Label ID="DescripcionLabel" runat="server" Text="Descripcion" />
+                <asp:Label ID="DescripcionLabel" runat="server" Text="Descripción" />
                 &nbsp;comision</td>
             <td>
                 <asp:TextBox ID="txtDescripcion" runat="server" />
@@ -58,7 +58,7 @@
         </tr>
         <tr>
             <td>
-                <asp:Label ID="IDPlanLabel" runat="server" Text="Descripcion del plan" />
+                <asp:Label ID="IDPlanLabel" runat="server" Text="Descripción Plan" />
             </td>
             <td>
                 
@@ -70,7 +70,7 @@
         </tr>
         <tr>
             <td>
-                <asp:Label ID="anioEspecialidadLabel" runat="server" Text="Año especialidad" />
+                <asp:Label ID="anioEspecialidadLabel" runat="server" Text="Año Especialidad" />
             </td>
             <td >
                 <asp:TextBox ID="txtAnioEspecialidad" runat="server" />

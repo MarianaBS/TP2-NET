@@ -5,7 +5,7 @@
     <CR:CrystalReportViewer ID="CrystalReportViewer1" runat="server" 
         AutoDataBind="True" Height="1123px" ReportSourceID="CursosODBC" Width="890px" />
     <CR:CrystalReportSource ID="CursosODBC" runat="server">
-        <Report FileName="C:\Users\MaximilianoDaniel\Desktop\TP2\UI.Desktop\CursosODBC.rpt">
+        <Report FileName="C:\Users\Usuario\Documents\apuntes varios\ELECTIVAS\net\TP2FinalMBS\UI.Desktop\CursosODBC.rpt">
         </Report>
     </CR:CrystalReportSource>
 

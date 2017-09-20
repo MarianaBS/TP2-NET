@@ -11,7 +11,7 @@
     <Columns>
     <asp:BoundField HeaderText="Año Calendario" DataField="AnioCalendario" />
     <asp:BoundField HeaderText="Cupo" DataField="Cupo" />
-    <asp:BoundField HeaderText="IDComision" DataField="IDComision" />
+    <asp:BoundField HeaderText="IDComisión" DataField="IDComision" />
     <asp:BoundField HeaderText="IDMateria" DataField="IDMateria" />
     <asp:CommandField SelectText="Seleccionar" ShowSelectButton="true" />
     </Columns>
@@ -60,7 +60,7 @@
         </tr>
         <tr>
             <td >
-                <asp:Label ID="Label3" runat="server" Text="Comision"></asp:Label>
+                <asp:Label ID="Label3" runat="server" Text="Comisión"></asp:Label>
             </td>
             <td>
                 <asp:DropDownList ID="ddlComision" runat="server" Height="22px" Width="168px">
