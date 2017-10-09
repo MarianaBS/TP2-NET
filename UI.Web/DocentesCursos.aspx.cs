@@ -169,7 +169,7 @@ namespace UI.Web
 
         protected void btnCancelar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/docentes_cursos.aspx");
+            Response.Redirect("~/DocentesCursos.aspx");
         }
         protected void ddlDocente_Load(object sender, EventArgs e)
         {

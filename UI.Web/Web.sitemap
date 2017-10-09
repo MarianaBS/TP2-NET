@@ -7,7 +7,7 @@
     <siteMapNode url="~/Materias.aspx" title="Materias" description=""/>
     <siteMapNode url="~/Modulos_Usuarios.aspx" title="Modulos usuarios" description=""/>
     <siteMapNode url="~/Modulos.aspx" title="Modulos" description=""/>
-    <siteMapNode url="~/docentes_cursos.aspx" title="Docentes Cursos" description=""/>
+    <siteMapNode url="~/DocentesCursos.aspx" title="Docentes Cursos" description=""/>
     <siteMapNode url="~/AlumnosIncripciones.aspx" title="Alumnos Inscripciones" description=""/>
     <siteMapNode url="~/Especialidades.aspx" title="Especialidades" description=""/>
     <siteMapNode url="~/Personas.aspx" title="Personas" description=""/>
