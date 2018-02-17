@@ -25,9 +25,9 @@
     </tr>
     <tr>
     <!-- site navigation -->
-        <td valign="top" width="200px">
+        <td valign="top" <%--width--%>="200px">
             <br />
-            <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource" CssClass="nuevoEstilo2" >
+            <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource" CssClass="nuevoEstilo2" ShowLines="True" >
             </asp:TreeView>
                 </td>
     <td align="center" id="table">

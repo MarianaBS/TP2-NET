@@ -131,12 +131,6 @@
     <Compile Include="IADesktop.Designer.cs">
       <DependentUpon>IADesktop.cs</DependentUpon>
     </Compile>
-    <Compile Include="Info.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Info.Designer.cs">
-      <DependentUpon>Info.cs</DependentUpon>
-    </Compile>
     <Compile Include="InscripcionAlumnos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -279,9 +273,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="IADesktop.resx">
       <DependentUpon>IADesktop.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Info.resx">
-      <DependentUpon>Info.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InscripcionAlumnos.resx">
       <DependentUpon>InscripcionAlumnos.cs</DependentUpon>

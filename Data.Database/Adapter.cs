@@ -40,5 +40,11 @@ namespace Data.Database
         {
             throw new Exception("Metodo no implementado");
         }
+
+        public SqlConnection Conexion()
+        {
+            SqlConnection con=new SqlConnection ("Data source=USUARIO-PC/SQLSERVER; database=NetGenerica; Integrated Security=true");
+            return con;
+        }
     }
 }

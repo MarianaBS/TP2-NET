@@ -37,8 +37,6 @@
             this.mnuVerMiInfo = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuReportes = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuReportesCursos = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuAyuda = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuAyudaInfo = new System.Windows.Forms.ToolStripMenuItem();
             this.mnsPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,8 +45,7 @@
             this.mnsPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuArchivo,
             this.mnuVer,
-            this.mnuReportes,
-            this.mnuAyuda});
+            this.mnuReportes});
             this.mnsPrincipal.Location = new System.Drawing.Point(0, 0);
             this.mnsPrincipal.Name = "mnsPrincipal";
             this.mnsPrincipal.Size = new System.Drawing.Size(725, 24);
@@ -204,21 +201,6 @@
             this.mnuReportesCursos.Text = "Reporte Cursos";
             this.mnuReportesCursos.Click += new System.EventHandler(this.mnuReportesCursos_Click);
             // 
-            // mnuAyuda
-            // 
-            this.mnuAyuda.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuAyudaInfo});
-            this.mnuAyuda.Name = "mnuAyuda";
-            this.mnuAyuda.Size = new System.Drawing.Size(53, 20);
-            this.mnuAyuda.Text = "Ayuda";
-            // 
-            // mnuAyudaInfo
-            // 
-            this.mnuAyudaInfo.Name = "mnuAyudaInfo";
-            this.mnuAyudaInfo.Size = new System.Drawing.Size(152, 22);
-            this.mnuAyudaInfo.Text = "Acerca de...";
-            this.mnuAyudaInfo.Click += new System.EventHandler(this.mnuAyudaInfo_Click);
-            // 
             // formMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -259,8 +241,6 @@
         private System.Windows.Forms.ToolStripMenuItem mnuArchivo;
         private System.Windows.Forms.ToolStripMenuItem mnuSalir;
         private System.Windows.Forms.ToolStripMenuItem mnuReportes;
-        private System.Windows.Forms.ToolStripMenuItem mnuAyuda;
-        private System.Windows.Forms.ToolStripMenuItem mnuAyudaInfo;
         private System.Windows.Forms.ToolStripMenuItem mnuVerMisCursos;
         private System.Windows.Forms.ToolStripMenuItem mnuVerMiInfo;
         private System.Windows.Forms.ToolStripMenuItem mnuReportesCursos;
