@@ -41,14 +41,7 @@
     
     <asp:Panel ID="formPanel" Visible="false" runat="server">
         <table>
-            <tr>
-                <td>
-                    Campos obligatorios*</td>
-                <td style="width: 128px" >
-                    &nbsp;</td>
-                <td>
-                    &nbsp;</td>
-            </tr>
+           
             <tr>
                 <td >
                     <asp:Label ID="Label1" runat="server" Text="IDUsuario"></asp:Label>

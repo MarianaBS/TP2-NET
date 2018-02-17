@@ -8,7 +8,7 @@
         <style type="text/css">
            
             .nuevoEstilo2 {
-                font-family: Verdana;
+                font-family: 'Times New Roman';
             }
             .nuevoEstilo3 {
                 font-family: "Century Gothic";

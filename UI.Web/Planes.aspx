@@ -6,7 +6,7 @@
     SelectedRowStyle-BackColor="Black"
     SelectedRowStyle-ForeColor="White"
     DataKeyNames="ID" onselectedindexchanged="gridView_SelectedIndexChanged" 
-        CellPadding="4" ForeColor="#333333" GridLines="Horizontal" CssClass="GridView">
+        CellPadding="4" ForeColor="#333333" GridLines="Both" CssClass="GridView">
         
     <Columns>
         <asp:BoundField HeaderText="Descripción Plan" DataField="Descripcion" />
