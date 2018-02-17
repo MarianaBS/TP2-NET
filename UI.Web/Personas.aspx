@@ -7,8 +7,8 @@
     SelectedRowStyle-BackColor="Black"
     SelectedRowStyle-ForeColor="White" Width=500px
     DataKeyNames="ID" onselectedindexchanged="gridView_SelectedIndexChanged" 
-    CellPadding="4" ForeColor="#333333" GridLines="None">
-        <RowStyle BackColor="#E3EAEB" />
+    CellPadding="4" ForeColor="#333333" GridLines="Both">
+        
     <Columns>
         <asp:BoundField HeaderText="Plan" DataField="IdPlan" />
         <asp:BoundField HeaderText="Legajo" DataField="Legajo" />
@@ -23,7 +23,7 @@
         <SelectedRowStyle BackColor="#C5BBAF" Font-Bold="True" ForeColor="#333333" />
         <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
         <EditRowStyle BackColor="#7C6F57" />
-        <AlternatingRowStyle BackColor="White" />
+        
     </asp:GridView>
 </asp:Panel>
 

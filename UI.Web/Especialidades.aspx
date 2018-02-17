@@ -4,8 +4,8 @@
     SelectedRowStyle-BackColor = "Black"
     SelectedRowStyle-ForeColor = "White"
     DataKeyNames="ID" onselectedindexchanged="gridView_SelectedIndexChanged1" 
-        CellPadding="4" ForeColor="#333333" GridLines="None" CssClass="GridView">
-    <RowStyle BackColor="#E3EAEB"/>
+        CellPadding="4" ForeColor="#333333" GridLines="Both" CssClass="GridView">
+    
     <Columns>
     <asp:BoundField HeaderText="Descripción" DataField="Descripcion" />
     <asp:CommandField SelectText="Seleccionar" ShowSelectButton="true" />
@@ -16,7 +16,6 @@
 <SelectedRowStyle BackColor="#C5BBAF" ForeColor="#333333" Font-Bold="True"></SelectedRowStyle>
     <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
     <EditRowStyle BackColor="#7C6F57" />
-    <AlternatingRowStyle BackColor="White" />
     </asp:GridView>
         <asp:Panel ID="gridActionsPanel" runat="server">
             <asp:LinkButton ID="editarLinkButton" runat="server" OnClick="editarLinkButton_Click">Editar</asp:LinkButton>

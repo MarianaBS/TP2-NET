@@ -7,9 +7,8 @@
             SelectedRowStyle-BackColor="Black"
             SelectedRowStyle-ForeColor="White" 
             DataKeyNames="ID" onselectedindexchanged="gridView_SelectedIndexChanged" 
-            CssClass="GridView" CellPadding="4" ForeColor="#333333" GridLines="None">
-                <RowStyle BackColor="#E3EAEB" />
-                <Columns>
+            CssClass="GridView" CellPadding="4" ForeColor="#333333" GridLines="Both">
+                 <Columns>
                     <asp:BoundField DataField="IDPersona" HeaderText="ID" />
                     <asp:BoundField DataField="Nombre" HeaderText="Nombre" />
                     <asp:BoundField DataField="Apellido" HeaderText="Apellido" />
@@ -23,7 +22,7 @@
                 <SelectedRowStyle BackColor="#C5BBAF" ForeColor="#333333" Font-Bold="True" />
                 <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
                 <EditRowStyle BackColor="#7C6F57" />
-                <AlternatingRowStyle BackColor="White" />
+                
             </asp:GridView>
         </asp:Panel>
         
