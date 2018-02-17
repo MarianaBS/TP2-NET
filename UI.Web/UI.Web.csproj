@@ -67,6 +67,7 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ABM.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -191,7 +192,6 @@
     <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ABM.aspx" />
     <Content Include="AlumnosIncripciones.aspx" />
     <Content Include="Comisiones.aspx" />
     <Content Include="Cursos.aspx" />

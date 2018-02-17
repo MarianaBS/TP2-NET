@@ -37,14 +37,7 @@
 
 <asp:Panel ID="formPanel" Visible="false" runat="server">
     <table>
-        <tr>
-            <td >
-                Campos obligatorios*</td>
-            <td ">
-                &nbsp;</td>
-            <td>
-                &nbsp;</td>
-        </tr>
+        
         <tr>
             <td >
                 <asp:Label ID="lblIDCurso" runat="server" Text="IDCurso" />
@@ -84,7 +77,9 @@
                 <asp:Label ID="lblTipoCargo" runat="server" Text="TipoCargo" />
             </td>
             <td >
-                <asp:DropDownList ID="ddlTipoCargo" runat="server" Height="22px" Width="128px">
+                <asp:DropDownList ID="ddlTipoCargo" runat="server" Height="22px"
+                      Width="128px">
+                    
                 </asp:DropDownList>
             </td>
             <td>

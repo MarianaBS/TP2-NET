@@ -38,15 +38,7 @@
         
         <asp:Panel ID="formPanel" Visible="false" runat="server">
             <table >
-                <tr>
-                    <td >
-                        Campos obligatorios*</td>
-                    <td >
-                        &nbsp;</td>
-                    <td>
-                        &nbsp;</td>
-                </tr>
-                <tr>
+                  <tr>
                     <td>
                         <asp:Label ID="lblAlumno" runat="server" Text="IDAlumno"></asp:Label>
                     </td>
@@ -55,6 +47,7 @@
                             Height="22px" onload="ddlIDAlumno_Load" 
                             onselectedindexchanged="ddlIDAlumno_SelectedIndexChanged" Width="128px">
                         </asp:DropDownList>
+                        
                     </td>
                     <td>
                         &nbsp;</td>
@@ -86,6 +79,12 @@
                     </td>
                     <td >
                         <asp:TextBox ID="txtCondicion" runat="server" />
+                        <asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server"
+                        ControlToValidate="txtCondicion"
+                        Display="None"
+                        ErrorMessage="El campo  Condicion no puede estar vacío"
+                        ForeColor="Red">
+                    </asp:RequiredFieldValidator>
                     </td>
                     <td>
                         &nbsp;</td>
@@ -96,6 +95,12 @@
                     </td>
                     <td >
                         <asp:TextBox ID="txtNota" runat="server" />
+                        <asp:RequiredFieldValidator id="RequiredFieldValidator2" runat="server"
+                        ControlToValidate="txtNota"
+                        Display="None"
+                        ErrorMessage="El campo Nota no puede estar vacío"
+                        ForeColor="Red">
+                    </asp:RequiredFieldValidator>
                     </td>
                     <td>
                         &nbsp;</td>

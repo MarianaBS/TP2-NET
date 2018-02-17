@@ -36,19 +36,20 @@
 
 <asp:Panel ID="formPanel" Visible="false" runat="server">
     <table>
-        <tr>
-            <td >
-                Campos obligatorios*</td>
-            <td>
-                &nbsp;</td>
-        </tr>
+       
         <tr>
             <td >
                 <asp:Label ID="lblAnioCalendario" runat="server" Text="Año calendario"></asp:Label>
             </td>
             <td>
                 <asp:TextBox ID="txtAnioCalendario" runat="server" Width="168px" Height="22px"></asp:TextBox>
-                *</td>
+                <asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server"
+                        ControlToValidate="txtAnioCalendario"
+                        Display="None"
+                        ErrorMessage="El campo Año no puede estar vacío"
+                        ForeColor="Red">
+                    </asp:RequiredFieldValidator>
+            </td>
         </tr>
         <tr>
             <td >
@@ -56,7 +57,13 @@
             </td>
             <td>
                 <asp:TextBox ID="txtCupo" runat="server" Width="168px"></asp:TextBox>
-                *</td>
+                <asp:RequiredFieldValidator id="RequiredFieldValidator2" runat="server"
+                        ControlToValidate="txtCupo"
+                        Display="None"
+                        ErrorMessage="El campo Cupo no puede estar vacío"
+                        ForeColor="Red">
+                    </asp:RequiredFieldValidator>
+                </td>
         </tr>
         <tr>
             <td >
@@ -65,7 +72,7 @@
             <td>
                 <asp:DropDownList ID="ddlComision" runat="server" Height="22px" Width="168px">
                 </asp:DropDownList>
-                *</td>
+                </td>
         </tr>
         <tr>
             <td>
@@ -84,7 +91,7 @@
             </td>
             <td>
                 <asp:TextBox ID="txtMateria" runat="server" Width="168px" Enabled="false"></asp:TextBox>
-                *</td>
+                </td>
         </tr>
     </table>
 

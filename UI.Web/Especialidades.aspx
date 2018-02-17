@@ -41,6 +41,13 @@
                     </td>
                     <td >
                         <asp:TextBox ID="txtDescripcion" runat="server"></asp:TextBox>
+                        <asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server"
+                        ControlToValidate="txtDescripcion"
+                        Display="None"
+                        ErrorMessage="El campo no puede estar vacío"
+                        ForeColor="Red">
+                        </asp:RequiredFieldValidator>
+                    
                         </td>
                     <td >
                         </td>

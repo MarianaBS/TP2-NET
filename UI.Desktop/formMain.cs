@@ -172,11 +172,7 @@ namespace UI.Desktop
             }
         }
 
-        private void mnuAyudaInfo_Click(object sender, EventArgs e)
-        {
-            formInfo info = new formInfo();
-            info.ShowDialog();
-        }
+       
 
     }
 }

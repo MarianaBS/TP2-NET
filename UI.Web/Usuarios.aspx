@@ -38,14 +38,7 @@
         <asp:Panel ID="formPanel" Visible="false" runat="server" CssClass="formPanel">
 
             <table >
-                <tr>
-                    <td >
-                        Campos obligatorios*</td>
-                    <td >
-                        &nbsp;</td>
-                    <td>
-                        &nbsp;</td>
-                </tr>
+               
                 <tr>
                     <td>
                         <asp:Label ID="lblPersona" runat="server" Text="Persona: " />
@@ -68,8 +61,8 @@
                     </td>
                     <td>
                         <asp:RequiredFieldValidator ID="rfdNombre" runat="server" 
-                            ControlToValidate="txtNombre" Display="Dynamic" 
-                            ErrorMessage="El nombre no puede estar vacío">*</asp:RequiredFieldValidator>
+                            ControlToValidate="txtNombre" Display="None" 
+                            ErrorMessage="El nombre no puede estar vacío" ForeColor="Red"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
@@ -81,8 +74,8 @@
                     </td>
                     <td>
                         <asp:RequiredFieldValidator ID="rfvApellido" runat="server" 
-                            ControlToValidate="txtApellido" Display="Dynamic" 
-                            ErrorMessage="El apellido no puede estar vacío">*</asp:RequiredFieldValidator>
+                            ControlToValidate="txtApellido" Display="None" 
+                            ErrorMessage="El apellido no puede estar vacío"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
@@ -118,8 +111,8 @@
                     </td>
                     <td>
                         <asp:RequiredFieldValidator ID="rfdNombreUsuario" runat="server" 
-                            ControlToValidate="txtNombreUsuario" Display="Dynamic" 
-                            ErrorMessage="El nombre de usuario no puede estar vacío">*</asp:RequiredFieldValidator>
+                            ControlToValidate="txtNombreUsuario" Display="None" 
+                            ErrorMessage="El nombre de usuario no puede estar vacío"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
@@ -128,6 +121,11 @@
                     </td>
                     <td >
                         <asp:TextBox ID="txtClave" runat="server" TextMode="Password" />
+                    </td>
+                     <td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
+                            ControlToValidate="txtClave" Display="None" 
+                            ErrorMessage="El campo clave no puede estar vacío"></asp:RequiredFieldValidator>
                     </td>
                     <td>
                         &nbsp;</td>

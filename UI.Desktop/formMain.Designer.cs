@@ -64,14 +64,14 @@
             // mnuArchivoDesconectarse
             // 
             this.mnuArchivoDesconectarse.Name = "mnuArchivoDesconectarse";
-            this.mnuArchivoDesconectarse.Size = new System.Drawing.Size(152, 22);
+            this.mnuArchivoDesconectarse.Size = new System.Drawing.Size(142, 22);
             this.mnuArchivoDesconectarse.Text = "Cerrar sesión";
             this.mnuArchivoDesconectarse.Click += new System.EventHandler(this.mnuArchivoDesconectarse_Click);
             // 
             // mnuSalir
             // 
             this.mnuSalir.Name = "mnuSalir";
-            this.mnuSalir.Size = new System.Drawing.Size(152, 22);
+            this.mnuSalir.Size = new System.Drawing.Size(142, 22);
             this.mnuSalir.Text = "Salir";
             this.mnuSalir.Click += new System.EventHandler(this.mnuSalir_Click_1);
             // 
@@ -92,8 +92,8 @@
             this.mnuVerMisCursos,
             this.mnuVerMiInfo});
             this.mnuVer.Name = "mnuVer";
-            this.mnuVer.Size = new System.Drawing.Size(36, 20);
-            this.mnuVer.Text = "Ver";
+            this.mnuVer.Size = new System.Drawing.Size(65, 20);
+            this.mnuVer.Text = "Principal";
             // 
             // mnuVerPersonas
             // 

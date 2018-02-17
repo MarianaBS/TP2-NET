@@ -35,35 +35,35 @@
 </asp:Panel>
 <asp:Panel ID="formPanel" Visible="false" runat="server">
         <table >
-            <tr>
-                <td >
-                    Campos obligatorios*</td>
-                <td >
-                    &nbsp;</td>
-                <td>
-                    &nbsp;</td>
-            </tr>
+           
             <tr>
                 <td >
                     <asp:Label ID="nombreLabel" runat="server" Text="Descripción Plan" />
                 </td>
                 <td >
                     <asp:TextBox ID="txtDescripcion" runat="server" Width="153px"></asp:TextBox>
-                    </td>
-                <td>
-                    *</td>
+                    <asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server"
+                        ControlToValidate="txtDescripcion"
+                        Display="None"
+                        ErrorMessage="El campo no puede estar vacío"
+                        ForeColor="Red">
+                    </asp:RequiredFieldValidator>
+                    
+                </td>
+                
             </tr>
             <tr>
                 <td >
                     <asp:Label ID="apellidoLabel" runat="server" Text="Especialidad" />
+                    
                 </td>
                 <td 6>
                     <asp:DropDownList ID="ddlEspecialidad" runat="server" Height="22px" 
                         Width="153px" />
                     </td>
-                <td>
-                    *</td>
+               
             </tr>
+            
     </table>
 </asp:Panel>
              

@@ -36,34 +36,33 @@
 
 <asp:Panel ID="formPanel" Visible="false" runat="server">
     <table >
-        <tr>
-            <td>
-                Campos obligatorios*</td>
-            <td>
-                &nbsp;</td>
-            <td>
-                &nbsp;</td>
-        </tr>
+       
         <tr>
             <td>
                 <asp:Label ID="lblDescripcion" runat="server" Text="Descripción" />
             </td>
             <td >
                 <asp:TextBox ID="txtDescripcion" runat="server" Width="176px"></asp:TextBox>
+                 <td>
+                        <asp:RequiredFieldValidator ID="rfdNombreUsuario" runat="server" 
+                            ControlToValidate="txtDescripcion" Display="None" ForeColor="Red"
+                            ErrorMessage="El campo Descripción no puede estar vacío"></asp:RequiredFieldValidator>
+                    </td>
                 </td>
-            <td>
-                &nbsp;*&nbsp;</td>
+           
         </tr>
         <tr>
             <td>
                 <asp:Label ID="lblEjecuta" runat="server" Text="Ejecuta" />
             </td>
             <td>
-                <asp:TextBox ID="txtEjecuta" runat="server" Height="65px" TextMode="MultiLine" 
-                    Width="176px" />
+                <asp:TextBox ID="txtEjecuta" runat="server" Height="65px" Width="176px" />
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
+                            ControlToValidate="txtEjecuta" Display="None" ForeColor="Red"
+                            ErrorMessage="El campo Ejecuta no puede estar vacío"></asp:RequiredFieldValidator>
+         
                 </td>
-            <td>
-                &nbsp;*&nbsp;</td>
+            
         </tr>
     </table>
 </asp:Panel> 

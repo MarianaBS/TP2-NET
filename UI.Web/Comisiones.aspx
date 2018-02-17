@@ -37,9 +37,15 @@
         <tr>
             <td >
                 <asp:Label ID="DescripcionLabel" runat="server" Text="Descripción" />
-                &nbsp;comision</td>
+                &nbsp;comisión</td>
             <td>
                 <asp:TextBox ID="txtDescripcion" runat="server" />
+                <asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server"
+                        ControlToValidate="txtDescripcion"
+                        Display="None"
+                        ErrorMessage="El campo Descripción no puede estar vacío"
+                        ForeColor="Red">
+                    </asp:RequiredFieldValidator>
                 </td>
             <td>
                 &nbsp;</td>
@@ -74,6 +80,12 @@
             </td>
             <td >
                 <asp:TextBox ID="txtAnioEspecialidad" runat="server" />
+                <asp:RequiredFieldValidator id="RequiredFieldValidator2" runat="server"
+                        ControlToValidate="txtAnioEspecialidad"
+                        Display="None"
+                        ErrorMessage="El campo Año Especialidad no puede estar vacío"
+                        ForeColor="Red">
+                    </asp:RequiredFieldValidator>
             </td>
             <td>
                 &nbsp;</td>

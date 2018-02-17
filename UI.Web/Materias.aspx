@@ -32,23 +32,22 @@
         </asp:Panel>
         <asp:Panel ID="formPanel" Visible="false" runat="server">
             <table >
-                <tr>
-                    <td >
-                        Campos obligatorios*</td>
-                    <td >
-                        &nbsp;</td>
-                    <td>
-                        &nbsp;</td>
-                </tr>
+                
                 <tr>
                     <td >
                         <asp:Label ID="descripcionLabel" runat="server" Text="Descripción" />
                     </td>
                     <td >
                         <asp:TextBox ID="txtDescripcion" runat="server"></asp:TextBox>
+                         <asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server"
+                        ControlToValidate="txtDescripcion"
+                        Display="None"
+                        ErrorMessage="El campo Descripción no puede estar vacío"
+                        ForeColor="Red">
+                    </asp:RequiredFieldValidator>
+                    
                         </td>
-                    <td>
-                        *</td>
+                   
                 </tr>
                 <tr>
                     <td >
@@ -56,9 +55,15 @@
                     </td>
                     <td >
                         <asp:TextBox ID="txtHSSemanales" runat="server" />
+                         <asp:RequiredFieldValidator id="RequiredFieldValidator2" runat="server"
+                        ControlToValidate="txtHSSemanales"
+                        Display="None"
+                        ErrorMessage="El campo Hs Semanales no puede estar vacío"
+                        ForeColor="Red">
+                    </asp:RequiredFieldValidator>
+                    
                         </td>
-                    <td>
-                        *</td>
+                    
                 </tr>
                 <tr>
                     <td >
@@ -66,9 +71,14 @@
                     </td>
                     <td >
                         <asp:TextBox ID="txtHSTotales" runat="server" />
+                        <asp:RequiredFieldValidator id="RequiredFieldValidator3" runat="server"
+                        ControlToValidate="txtHSTotales"
+                        Display="None"
+                        ErrorMessage="El campo Hs Totales no puede estar vacío"
+                        ForeColor="Red">
+                    </asp:RequiredFieldValidator>
                     </td>
-                    <td>
-                        *</td>
+                   
                 </tr>
                 <tr>
                     <td >
@@ -78,8 +88,7 @@
                         <asp:DropDownList ID="ddlPlan" runat="server" Height="19px" Width="127px">
                         </asp:DropDownList>
                     </td>
-                    <td>
-                        *</td>
+                    
                 </tr>
             </table>
         </asp:Panel> 
