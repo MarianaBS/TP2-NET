@@ -95,10 +95,17 @@
         </tr>
         <tr>
             <td >
-                <asp:Label ID="fechaNacimientoLabel" runat="server" Text="Fecha de Nacimiento" />
+                <asp:Label ID="fechaNacimientoLabel" runat="server" Text="Fecha Nacimiento (dd/mm/aaaa)" />
+                 
             </td>
             <td >
                 <asp:TextBox ID="txtFechaNacimiento" runat="server" />
+                <asp:RequiredFieldValidator id="RequiredFieldValidator4" runat="server"
+                        ControlToValidate="txtFechaNacimiento"
+                        Display="None"
+                        ErrorMessage="El campo Fecha Nacimiento no puede estar vacío"
+                        ForeColor="Red">
+                    </asp:RequiredFieldValidator>
             </td>
             <td  >
             </td>

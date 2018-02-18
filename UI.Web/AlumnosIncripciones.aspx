@@ -29,8 +29,9 @@
             <asp:LinkButton ID="eliminarLinkButton" runat="server" 
                 onclick="eliminarLinkButton_Click">Eliminar</asp:LinkButton>
             <asp:LinkButton ID="nuevoLinkButton" runat="server" 
-                onclick="nuevoLinkButton_Click">Nuevo</asp:LinkButton>
+                onclick="nuevoLinkButton_Click" >Nuevo</asp:LinkButton>
         </asp:Panel>
+    <br />
         <asp:Panel ID="panelValidators" runat="server" Visible="True">
             <asp:ValidationSummary ID="ValidationSummary1"  runat="server" DisplayMode="BulletList"/>
         </asp:Panel>
