@@ -31,8 +31,7 @@ namespace UI.Desktop
                 modificarMenues();   
             }
         }
-        //Modificar menues en tiempo de ejecucion
-        //Poniendo en invisible cierta secciones
+        
         private void visible(bool enable)
         {
             //Inicio

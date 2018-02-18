@@ -1,5 +1,6 @@
 ﻿body
 {
+    font-family: Arial;
 	background-color: #D9EFF0;
 	width: 100%;
 	margin-bottom:10px;
@@ -9,17 +10,17 @@
 {
 	font-family: verdana;
 	font-size: xx-small;
-	/*color: #008A48;*/
 	text-align: left;
 }
 
 .GridView
 {
+   font-family: Arial;
 	width: 590px;
 } 
 .title1
 {
-	font-family: 'Century Gothic';
+	font-family: Century Gothic;
 	font-size: 40px;
 	color: #53536F;
     text-decoration:none;
@@ -27,21 +28,23 @@
 }
 .bodyContent
 {
-	height:550px;
+    font-family: Arial;
+    height:550px;
 	width:650px;
 }
 
 .formPanel
 {
-	
+	font-family: Arial;
 }
 
 .gridPanel
 {
-
+    font-family: Arial;
 }
 .menu1
 {
+    font-family: Arial;
 	width: 250px;
 }
 

@@ -47,6 +47,6 @@
                 <asp:LinkButton ID="lnkRecordarClave" runat="server" 
                     onclick="lnkRecordarClave_Click" Font-Names="Verdana" style="font-size: small">Olvidé mi Clave</asp:LinkButton>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Label ID="lblLogin" runat="server" Font-Bold="True" ForeColor="#993333" Font-Names="Verdana" style="font-size: small"></asp:Label>
+        <asp:Label ID="lblLogin" runat="server" Font-Bold="True" ForeColor="red" Font-Names="Verdana" style="font-size: small"></asp:Label>
     </p>
 </asp:Content>
