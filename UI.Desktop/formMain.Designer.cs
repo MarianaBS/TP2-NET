@@ -34,7 +34,6 @@
             this.mnuVerModulos = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuVerPermisosuser = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuVerMisCursos = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuVerMiInfo = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuReportes = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuReportesCursos = new System.Windows.Forms.ToolStripMenuItem();
             this.mnsPrincipal.SuspendLayout();
@@ -89,8 +88,7 @@
             this.mnuVerInsalum,
             this.mnuVerModulos,
             this.mnuVerPermisosuser,
-            this.mnuVerMisCursos,
-            this.mnuVerMiInfo});
+            this.mnuVerMisCursos});
             this.mnuVer.Name = "mnuVer";
             this.mnuVer.Size = new System.Drawing.Size(65, 20);
             this.mnuVer.Text = "Principal";
@@ -179,13 +177,6 @@
             this.mnuVerMisCursos.Text = "Mis Cursos";
             this.mnuVerMisCursos.Click += new System.EventHandler(this.mnuVerMisCursos_Click);
             // 
-            // mnuVerMiInfo
-            // 
-            this.mnuVerMiInfo.Name = "mnuVerMiInfo";
-            this.mnuVerMiInfo.Size = new System.Drawing.Size(185, 22);
-            this.mnuVerMiInfo.Text = "Datos Personales";
-            this.mnuVerMiInfo.Click += new System.EventHandler(this.mnuVerMiInfo_Click);
-            // 
             // mnuReportes
             // 
             this.mnuReportes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -234,7 +225,6 @@
         private System.Windows.Forms.ToolStripMenuItem mnuVerEspecialidades;
         private System.Windows.Forms.ToolStripMenuItem mnuVerMaterias;
         private System.Windows.Forms.ToolStripMenuItem mnuVerPermisosuser;
-        private System.Windows.Forms.ToolStripMenuItem mnuVerPersonas;
         private System.Windows.Forms.ToolStripMenuItem mnuVerUsuarios;
         private System.Windows.Forms.ToolStripMenuItem mnuVerPlanes;
         private System.Windows.Forms.ToolStripMenuItem mnuVerModulos;
@@ -242,8 +232,8 @@
         private System.Windows.Forms.ToolStripMenuItem mnuSalir;
         private System.Windows.Forms.ToolStripMenuItem mnuReportes;
         private System.Windows.Forms.ToolStripMenuItem mnuVerMisCursos;
-        private System.Windows.Forms.ToolStripMenuItem mnuVerMiInfo;
         private System.Windows.Forms.ToolStripMenuItem mnuReportesCursos;
         private System.Windows.Forms.ToolStripMenuItem mnuArchivoDesconectarse;
+        private System.Windows.Forms.ToolStripMenuItem mnuVerPersonas;
     }
 }

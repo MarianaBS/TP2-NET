@@ -46,21 +46,19 @@ namespace UI.Desktop
             mnuVerPersonas.Visible = enable;
             mnuVerPlanes.Visible = enable;
             mnuVerCursosDoc.Visible = enable;
-            mnuVerUsuarios.Visible = enable;
-           // mnuVerMisCursos.Visible = enable;
-            mnuVerMiInfo.Visible = enable;
+            mnuVerUsuarios.Visible = enable;                
             
         }
         private void visibleDocente(bool enable)
         {
             mnuVerMisCursos.Visible = enable;
-            mnuVerMiInfo.Visible = enable;
+            
             mnuVerCursosDoc.Visible = enable;
             //Habilitar cosas del Docente
         }
         private void visibleAlumno(bool enable)
         {
-            mnuVerMiInfo.Visible = enable;
+            
             mnuVerInsalum.Visible = enable;
             //Habilitar cosas del alumno 
         }
@@ -138,12 +136,7 @@ namespace UI.Desktop
             ina.ShowDialog();
         }
 
-        private void mnuVerMiInfo_Click(object sender, EventArgs e)
-        {
-            MiInfo miInf = new MiInfo();
-            miInf.ShowDialog();
-        }
-
+       
         private void mnuVerMisCursos_Click(object sender, EventArgs e)
         {
             MisCursos cur = new MisCursos();
@@ -170,6 +163,11 @@ namespace UI.Desktop
             {
                 modificarMenues();
             }
+        }
+
+        private void mnuVerMiInfo_Click(object sender, EventArgs e)
+        {
+
         }
 
        

@@ -8,26 +8,28 @@
         <style type="text/css">
            
             .nuevoEstilo2 {
-                font-family: 'Times New Roman';
+                font-family: Arial;
             }
             .nuevoEstilo3 {
                 font-family: "Century Gothic";
+                font-size: 40px;
+                text-decoration:none;
             }
         </style>
     </head>
     
     <body style="background-color:#D9EFF0">
         <form id="bodyForm" runat="server" >
-        <table border="1" cellpadding="0" cellSpacing="0" width="100%">
+        <table border="2" cellpadding="0" cellSpacing="0" width="100%">
         <!-- site header -->
     <tr > 
-        <td colspan="2" align="center" Class="title1"> <span class="nuevoEstilo3">SISTEMA DE GESTION ACADEMICA</span></td>
+        <td colspan="2" align="center"> <span class="nuevoEstilo3">SISTEMA DE GESTION ACADEMICA</span></td>
     </tr>
     <tr>
     <!-- site navigation -->
         <td valign="top" <%--width--%>="200px">
             <br />
-            <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource" CssClass="nuevoEstilo2" ShowLines="True" >
+            <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource" CssClass="nuevoEstilo2" ShowLines="False" >
             </asp:TreeView>
                 </td>
     <td align="center" id="table">
