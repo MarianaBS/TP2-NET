@@ -95,7 +95,7 @@
         </tr>
         <tr>
             <td >
-                <asp:Label ID="fechaNacimientoLabel" runat="server" Text="Fecha Nacimiento (dd/mm/aaaa)" />
+                <asp:Label ID="fechaNacimientoLabel" runat="server" Text="Fecha Nac (dd/mm/aaaa)" />
                  
             </td>
             <td >

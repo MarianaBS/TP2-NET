@@ -166,13 +166,6 @@
       <DependentUpon>Planes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reporte.aspx.cs">
-      <DependentUpon>Reporte.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Reporte.aspx.designer.cs">
-      <DependentUpon>Reporte.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -221,7 +214,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Personas.aspx" />
-    <Content Include="Reporte.aspx" />
     <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>

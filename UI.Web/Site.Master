@@ -18,22 +18,26 @@
         </style>
     </head>
     
-    <body style="background-color:#D9EFF0">
+    <body style="background-color:pink">
         <form id="bodyForm" runat="server" >
         <table border="2" cellpadding="0" cellSpacing="0" width="100%">
-        <!-- site header -->
+        
     <tr > 
         <td colspan="2" align="center"> <span class="nuevoEstilo3">SISTEMA DE GESTION ACADEMICA</span></td>
     </tr>
     <tr>
-    <!-- site navigation -->
+    
         <td valign="top" <%--width--%>="200px">
             <br />
-            <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource" CssClass="nuevoEstilo2" ShowLines="False" >
+            <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource" CssClass="nuevoEstilo2" visibility="false" ImageSet="Arrows">
+                <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
+                <NodeStyle Font-Names="Tahoma" Font-Size="12pt" ForeColor="Black" HorizontalPadding="5px" NodeSpacing="0px" VerticalPadding="0px" />
+                <ParentNodeStyle Font-Bold="False" />
+                <SelectedNodeStyle Font-Underline="True" ForeColor="#5555DD" HorizontalPadding="0px" VerticalPadding="0px" />
             </asp:TreeView>
                 </td>
     <td align="center" id="table">
-    <!-- this is the placeholder for the page content -->
+    
     <div class="bodyContent">
             <br />
             <asp:ContentPlaceHolder ID="bodyContentPlaceHolder" runat="server" />
@@ -42,7 +46,7 @@
     </td>
     </tr>
     </table> 
-    <!-- site footer -->
+    
     <table cellpadding="0" cellSpacing="0" width="100%" class="footer">
     <tr>
         <td>

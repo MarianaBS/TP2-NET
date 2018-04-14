@@ -1,20 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
-  <siteMapNode url="~/Default.aspx" title="Menu Principal"  description="">
-    <siteMapNode url="~/AlumnosIncripciones.aspx" title="Alumnos Inscripciones" description=""/>
-    <siteMapNode url="~/Comisiones.aspx" title="Comisiones" description=""/>
-    <siteMapNode url="~/Cursos.aspx" title="Cursos" description=""/>
-    <siteMapNode url="~/DocentesCursos.aspx" title="Docentes Cursos" description=""/>
-    <siteMapNode url="~/Especialidades.aspx" title="Especialidades" description=""/>
-    <siteMapNode url="~/Materias.aspx" title="Materias" description=""/>
-    <siteMapNode url="~/Modulos.aspx" title="Modulos" description=""/>
-    <siteMapNode url="~/Modulos_Usuarios.aspx" title="Modulos usuarios" description=""/>
-    <siteMapNode url="~/Personas.aspx" title="Personas" description=""/>
-    <siteMapNode url="~/Planes.aspx" title="Planes" description=""/>
-    <siteMapNode url="~/Usuarios.aspx" title="Usuarios"  description="" />
-    <siteMapNode url="~/Reporte.aspx" title="Reporte de Cursos" description=""/>
-    <siteMapNode url="~/Login.aspx" title="Salir" description=""/>
+  <siteMapNode url="~/Default.aspx" title="Menú Principal" >
+    <siteMapNode url="~/Comisiones.aspx" title="Comisiones"/>
+    <siteMapNode url="~/Cursos.aspx" title="Cursos" />
+    <siteMapNode url="~/DocentesCursos.aspx" title="Docentes Cursos" />
+    <siteMapNode url="~/Especialidades.aspx" title="Especialidades"/>
+    <siteMapNode url="~/AlumnosIncripciones.aspx" title="Inscripciones" />
+    <siteMapNode url="~/Materias.aspx" title="Materias" />
+    <siteMapNode url="~/Modulos.aspx" title="Módulos" />
+    <siteMapNode url="~/Modulos_Usuarios.aspx" title="Módulos usuarios" />
+    <siteMapNode url="~/Personas.aspx" title="Personas" />
+    <siteMapNode url="~/Planes.aspx" title="Planes" />
+    <siteMapNode url="~/Usuarios.aspx" title="Usuarios"  />
+    <siteMapNode url="~/Login.aspx" title="Salir" />
   </siteMapNode>
 </siteMap>
-
-<!-- Administradores    -->

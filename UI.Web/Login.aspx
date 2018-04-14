@@ -6,9 +6,9 @@
         <table >
         <tr>
             <td>
-            </td>
+                &nbsp;</td>
             <td>
-                <asp:Label ID="lblBienvenido" runat="server" Text="¡Bienvenido al Sistema! " Font-Names="Verdana" style="font-size: medium"></asp:Label>
+                <asp:Label ID="lblBienvenido" runat="server" Text="¡Bienvenido al Sistema! " Font-Names="Tahoma" style="font-size: large"></asp:Label>
             </td>
         </tr>
         <tr>
@@ -19,18 +19,18 @@
         </tr>
         <tr>
             <td >
-                <asp:Label ID="lblUsuario" runat="server" Text="Usuario" Font-Names="Verdana" style="font-size: small"></asp:Label>
+                <asp:Label ID="lblUsuario" runat="server" Text="Usuario" Font-Names="Tahoma" style="font-size: medium"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtUsuario" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtUsuario" runat="server" BackColor="White"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td >
-                <asp:Label ID="lblClave" runat="server" Text="Clave" Font-Names="Verdana" style="font-size: small"></asp:Label>
+                <asp:Label ID="lblClave" runat="server" Text="Clave" Font-Names="Tahoma" style="font-size: medium"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtClave" runat="server" TextMode="Password"></asp:TextBox>
+                <asp:TextBox ID="txtClave" runat="server" TextMode="Password" BackColor="White"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -38,15 +38,15 @@
                 &nbsp;</td>
             <td style="text-align:right">
                 <asp:Button ID="btnIngresar" runat="server" onclick="btnIngresar_Click" 
-                    Text="Ingresar" style="width: 68px" Font-Names="Verdana" />
+                    Text="Ingresar" style="width: 72px" Font-Names="Tahoma" BorderStyle="Groove" BackColor="WhiteSmoke" Font-size="Medium" />
             </td>
         </tr>
         </table>
     </div>
     <p>
                 <asp:LinkButton ID="lnkRecordarClave" runat="server" 
-                    onclick="lnkRecordarClave_Click" Font-Names="Verdana" style="font-size: small">Olvidé mi Clave</asp:LinkButton>
+                    onclick="lnkRecordarClave_Click" Font-Names="Tahoma" style="font-size: medium">Olvidé mi Clave</asp:LinkButton>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Label ID="lblLogin" runat="server" Font-Bold="True" ForeColor="red" Font-Names="Verdana" style="font-size: small"></asp:Label>
+        <asp:Label ID="lblLogin" runat="server" Font-Bold="True" ForeColor="red" Font-Names="Tahoma" style="font-size: medium"></asp:Label>
     </p>
 </asp:Content>
