@@ -15,6 +15,13 @@
                 font-size: 40px;
                 text-decoration:none;
             }
+            .auto-style1 {
+                width: 244px;
+                height: 527px;
+            }
+            .auto-style2 {
+                height: 527px;
+            }
         </style>
     </head>
     
@@ -27,7 +34,7 @@
     </tr>
     <tr>
     
-        <td valign="top" <%--width--%>="200px">
+        <td valign="top" <%--width--%>="200px" class="auto-style1">
             <br />
             <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource" CssClass="nuevoEstilo2" visibility="false" ImageSet="Arrows">
                 <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
@@ -36,7 +43,7 @@
                 <SelectedNodeStyle Font-Underline="True" ForeColor="#5555DD" HorizontalPadding="0px" VerticalPadding="0px" />
             </asp:TreeView>
                 </td>
-    <td align="center" id="table">
+    <td align="center" id="table" class="auto-style2">
     
     <div class="bodyContent">
             <br />
@@ -47,19 +54,6 @@
     </tr>
     </table> 
     
-    <table cellpadding="0" cellSpacing="0" width="100%" class="footer">
-    <tr>
-        <td>
-        <b>Universidad Tecnológica Nacional</b>
-        <br />Tecnologías de Desarrollo de Software IDE.NET
-        </td>
-        <td > 
-            Trabajo Práctico Número 2
-        <br/>     
-           Integrantes: Mariana Sánchez
-        </td> 
-        </tr>
-     </table>   
      <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" />
         </form>
     </body>

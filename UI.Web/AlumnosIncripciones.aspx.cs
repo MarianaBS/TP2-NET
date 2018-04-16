@@ -11,7 +11,7 @@ namespace UI.Web
 {
     public partial class AlumnosIncripciones : ABM
     {
-        #region cto
+        
 
         AlumnoInscripcionLogic _Logic;
         private AlumnoInscripcionLogic Logic
@@ -26,9 +26,9 @@ namespace UI.Web
             }
         }
         private AlumnoInscripcion Entity { get; set; }
-        #endregion
+       
 
-        #region metodos
+
         protected override void LoadGrid()
         {
             this.gridView.DataSource = this.Logic.GetAll();
@@ -74,9 +74,9 @@ namespace UI.Web
         }
         
 
-        #endregion
+       
 
-        #region eventos
+        
         protected override void CargarPagina()
         {
             if (!Page.IsPostBack)
@@ -189,7 +189,7 @@ namespace UI.Web
             pers = persL.GetOne(Convert.ToInt32(ddlIDAlumno.SelectedValue));
             this.txtAlumno.Text = pers.Apellido + "," + pers.Nombre;
         }
-        #endregion
+       
 
        
 

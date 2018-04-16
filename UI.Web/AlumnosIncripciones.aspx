@@ -7,18 +7,18 @@
             SelectedRowStyle-BackColor="Black"
             SelectedRowStyle-ForeColor="White"
             DataKeyNames="ID" onselectedindexchanged="gridView_SelectedIndexChanged" 
-                CellPadding="4" ForeColor="#333333" GridLines="Both" CssClass="GridView">
+                CellPadding="4" ForeColor="black" GridLines="Both" CssClass="GridView">
              <Columns>
-                <asp:BoundField HeaderText="IDAlumno" DataField="IDAlumno" />
-                <asp:BoundField HeaderText="IDCurso" DataField="IDCurso" />
+                <asp:BoundField HeaderText="ID Alumno" DataField="IDAlumno" />
+                <asp:BoundField HeaderText="ID Curso" DataField="IDCurso" />
                 <asp:BoundField HeaderText="Condición" DataField="Condicion" />
                 <asp:BoundField HeaderText="Nota" DataField="Nota" />
-                <asp:CommandField SelectText="Seleccionar" ShowSelectButton="true" />            
+                <asp:CommandField HeaderText="Acción" SelectText="Seleccionar" ShowSelectButton="true" />            
             </Columns>
-                <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+                <FooterStyle BackColor="#595758" Font-Bold="True" ForeColor="White" />
                 <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
-                 <SelectedRowStyle BackColor="#89bcba"  ForeColor="#333333" />
-                <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+                 <SelectedRowStyle BackColor="#ef8baf"  ForeColor="#333333" />
+                <HeaderStyle BackColor="#595758" Font-Bold="True" ForeColor="White" />
                 <EditRowStyle BackColor="#7C6F57" />
                 
             </asp:GridView>
