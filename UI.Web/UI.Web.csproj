@@ -137,20 +137,6 @@
     <Compile Include="Materias.aspx.designer.cs">
       <DependentUpon>Materias.aspx</DependentUpon>
     </Compile>
-    <Compile Include="modulos.aspx.cs">
-      <DependentUpon>modulos.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="modulos.aspx.designer.cs">
-      <DependentUpon>modulos.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Modulos_Usuarios.aspx.cs">
-      <DependentUpon>Modulos_Usuarios.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Modulos_Usuarios.aspx.designer.cs">
-      <DependentUpon>Modulos_Usuarios.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Personas.aspx.cs">
       <DependentUpon>Personas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -193,8 +179,6 @@
     <Content Include="Especialidades.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Materias.aspx" />
-    <Content Include="modulos.aspx" />
-    <Content Include="Modulos_Usuarios.aspx" />
     <Content Include="Planes.aspx" />
     <Content Include="App_Themes\Default\Style.css" />
     <Content Include="Usuarios.aspx" />

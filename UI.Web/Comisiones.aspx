@@ -10,14 +10,14 @@
         CellPadding="4" ForeColor="#333333" GridLines="Both" CssClass="GridView">
       <Columns>
         <asp:BoundField HeaderText="Descripción" DataField="Descripcion" />
-        <asp:BoundField HeaderText="IDPlan" DataField="IDPlan" />
+        <asp:BoundField HeaderText="ID Plan" DataField="IDPlan" />
         <asp:BoundField HeaderText="Año Especialidad" DataField="AnioEspecialidad" />
-        <asp:CommandField SelectText="Seleccionar" ShowSelectButton="true" />           
+        <asp:CommandField HeaderText="Acción" SelectText="Seleccionar" ShowSelectButton="true" />           
     </Columns>
         <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
         <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
-         <SelectedRowStyle BackColor="#89bcba" ForeColor="#333333" />
-        <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+         <SelectedRowStyle BackColor="#ef8baf" ForeColor="#333333" />
+        <HeaderStyle BackColor="#595758" Font-Bold="True" ForeColor="White" />
         <EditRowStyle BackColor="#7C6F57" />
         </asp:GridView>
 </asp:Panel>

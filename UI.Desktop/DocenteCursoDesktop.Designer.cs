@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DocenteCursoDesktop));
             this.tbnInscripcion = new System.Windows.Forms.TableLayoutPanel();
             this.lblIDCurso = new System.Windows.Forms.Label();
             this.cboTipoCargo = new System.Windows.Forms.ComboBox();
@@ -51,7 +50,7 @@
             this.tbnInscripcion.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tbnInscripcion.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tbnInscripcion.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 186F));
-            this.tbnInscripcion.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 113F));
+            this.tbnInscripcion.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 114F));
             this.tbnInscripcion.Controls.Add(this.lblIDCurso, 0, 2);
             this.tbnInscripcion.Controls.Add(this.cboTipoCargo, 4, 2);
             this.tbnInscripcion.Controls.Add(this.lblIdDictado, 0, 1);
@@ -87,7 +86,7 @@
             // 
             this.cboTipoCargo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cboTipoCargo.FormattingEnabled = true;
-            this.cboTipoCargo.Location = new System.Drawing.Point(331, 117);
+            this.cboTipoCargo.Location = new System.Drawing.Point(330, 117);
             this.cboTipoCargo.Name = "cboTipoCargo";
             this.cboTipoCargo.Size = new System.Drawing.Size(180, 21);
             this.cboTipoCargo.TabIndex = 7;
@@ -108,14 +107,14 @@
             this.txtID.Enabled = false;
             this.txtID.Location = new System.Drawing.Point(90, 64);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(167, 20);
+            this.txtID.Size = new System.Drawing.Size(166, 20);
             this.txtID.TabIndex = 1;
             // 
             // lblIDDocente
             // 
             this.lblIDDocente.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblIDDocente.AutoSize = true;
-            this.lblIDDocente.Location = new System.Drawing.Point(263, 67);
+            this.lblIDDocente.Location = new System.Drawing.Point(262, 67);
             this.lblIDDocente.Name = "lblIDDocente";
             this.lblIDDocente.Size = new System.Drawing.Size(62, 13);
             this.lblIDDocente.TabIndex = 4;
@@ -125,7 +124,7 @@
             // 
             this.txtIDDocente.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtIDDocente.Enabled = false;
-            this.txtIDDocente.Location = new System.Drawing.Point(331, 64);
+            this.txtIDDocente.Location = new System.Drawing.Point(330, 64);
             this.txtIDDocente.Name = "txtIDDocente";
             this.txtIDDocente.Size = new System.Drawing.Size(180, 20);
             this.txtIDDocente.TabIndex = 5;
@@ -133,7 +132,7 @@
             // btnCancelar
             // 
             this.btnCancelar.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btnCancelar.Location = new System.Drawing.Point(517, 165);
+            this.btnCancelar.Location = new System.Drawing.Point(516, 165);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 9;
@@ -145,7 +144,7 @@
             // 
             this.lblCargo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblCargo.AutoSize = true;
-            this.lblCargo.Location = new System.Drawing.Point(276, 121);
+            this.lblCargo.Location = new System.Drawing.Point(275, 121);
             this.lblCargo.Name = "lblCargo";
             this.lblCargo.Size = new System.Drawing.Size(35, 13);
             this.lblCargo.TabIndex = 6;
@@ -154,7 +153,7 @@
             // btnAceptar
             // 
             this.btnAceptar.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnAceptar.Location = new System.Drawing.Point(436, 165);
+            this.btnAceptar.Location = new System.Drawing.Point(435, 165);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 8;
@@ -168,7 +167,7 @@
             this.cboCursos.FormattingEnabled = true;
             this.cboCursos.Location = new System.Drawing.Point(90, 117);
             this.cboCursos.Name = "cboCursos";
-            this.cboCursos.Size = new System.Drawing.Size(167, 21);
+            this.cboCursos.Size = new System.Drawing.Size(166, 21);
             this.cboCursos.TabIndex = 10;
             // 
             // DocenteCursoDesktop
@@ -177,7 +176,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(628, 199);
             this.Controls.Add(this.tbnInscripcion);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DocenteCursoDesktop";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Docente Curso";

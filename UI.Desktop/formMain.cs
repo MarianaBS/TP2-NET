@@ -34,7 +34,7 @@ namespace UI.Desktop
         
         private void visible(bool enable)
         {
-            //Inicio
+            
             mnuVerComisiones.Visible = enable;
             mnuVerCursos.Visible = enable;
             mnuVerEspecialidades.Visible = enable;
@@ -53,13 +53,13 @@ namespace UI.Desktop
             mnuVerMisCursos.Visible = enable;
             
             mnuVerCursosDoc.Visible = enable;
-            //Habilitar cosas del Docente
+            
         }
         private void visibleAlumno(bool enable)
         {
             
             mnuVerInsalum.Visible = enable;
-            //Habilitar cosas del alumno 
+           
         }
         private void modificarMenues()
         {
@@ -78,7 +78,7 @@ namespace UI.Desktop
         }
 
 
-        //Eventos clicks en menues
+        
         private void mnuVerPersonas_Click(object sender, EventArgs e)
         {
             Personas per = new Personas();
@@ -164,10 +164,7 @@ namespace UI.Desktop
             }
         }
 
-        private void mnuVerMiInfo_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
        
 

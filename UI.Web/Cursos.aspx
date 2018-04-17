@@ -11,14 +11,14 @@
     <Columns>
     <asp:BoundField HeaderText="Año Calendario" DataField="AnioCalendario" />
     <asp:BoundField HeaderText="Cupo" DataField="Cupo" />
-    <asp:BoundField HeaderText="IDComisión" DataField="IDComision" />
-    <asp:BoundField HeaderText="IDMateria" DataField="IDMateria" />
-    <asp:CommandField SelectText="Seleccionar" ShowSelectButton="true" />
+    <asp:BoundField HeaderText="ID Comisión" DataField="IDComision" />
+    <asp:BoundField HeaderText="ID Materia" DataField="IDMateria" />
+    <asp:CommandField HeaderText="Acción" SelectText="Seleccionar" ShowSelectButton="true" />
     </Columns>
         <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
         <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
-        <SelectedRowStyle BackColor="#89bcba"  ForeColor="#333333" />
-        <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+        <SelectedRowStyle BackColor="#ef8baf"  ForeColor="#333333" />
+        <HeaderStyle BackColor="#595758" Font-Bold="True" ForeColor="White" />
         <EditRowStyle BackColor="#7C6F57" />
        
     </asp:GridView>

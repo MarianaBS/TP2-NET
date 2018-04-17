@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MUDesktop));
             this.tlMUDesktop = new System.Windows.Forms.TableLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.chbPAlta = new System.Windows.Forms.CheckBox();
@@ -255,7 +254,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(589, 186);
             this.Controls.Add(this.tlMUDesktop);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MUDesktop";
             this.Text = "Módulo de Usuario";
             this.Load += new System.EventHandler(this.MUDesktop_Load);

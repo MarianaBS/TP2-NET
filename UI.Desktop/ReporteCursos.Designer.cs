@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formRCursos));
             this.crvCursos = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.CursosODBC1 = new UI.Desktop.CursosODBC();
             this.SuspendLayout();
@@ -52,7 +51,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1027, 484);
             this.Controls.Add(this.crvCursos);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "formRCursos";

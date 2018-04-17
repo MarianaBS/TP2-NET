@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IADesktop));
             this.tbInscripcion = new System.Windows.Forms.TableLayoutPanel();
             this.cbxIAs = new System.Windows.Forms.ComboBox();
             this.txtIDAlumno = new System.Windows.Forms.TextBox();
@@ -53,7 +52,7 @@
             this.tbInscripcion.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tbInscripcion.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tbInscripcion.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 197F));
-            this.tbInscripcion.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 109F));
+            this.tbInscripcion.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
             this.tbInscripcion.Controls.Add(this.cbxIAs, 1, 3);
             this.tbInscripcion.Controls.Add(this.txtIDAlumno, 1, 2);
             this.tbInscripcion.Controls.Add(this.txtIDInscripcion, 1, 1);
@@ -84,7 +83,7 @@
             this.cbxIAs.FormattingEnabled = true;
             this.cbxIAs.Location = new System.Drawing.Point(78, 131);
             this.cbxIAs.Name = "cbxIAs";
-            this.cbxIAs.Size = new System.Drawing.Size(176, 21);
+            this.cbxIAs.Size = new System.Drawing.Size(175, 21);
             this.cbxIAs.TabIndex = 12;
             // 
             // txtIDAlumno
@@ -93,7 +92,7 @@
             this.txtIDAlumno.Enabled = false;
             this.txtIDAlumno.Location = new System.Drawing.Point(78, 86);
             this.txtIDAlumno.Name = "txtIDAlumno";
-            this.txtIDAlumno.Size = new System.Drawing.Size(176, 20);
+            this.txtIDAlumno.Size = new System.Drawing.Size(175, 20);
             this.txtIDAlumno.TabIndex = 8;
             // 
             // txtIDInscripcion
@@ -102,7 +101,7 @@
             this.txtIDInscripcion.Enabled = false;
             this.txtIDInscripcion.Location = new System.Drawing.Point(78, 45);
             this.txtIDInscripcion.Name = "txtIDInscripcion";
-            this.txtIDInscripcion.Size = new System.Drawing.Size(176, 20);
+            this.txtIDInscripcion.Size = new System.Drawing.Size(175, 20);
             this.txtIDInscripcion.TabIndex = 7;
             // 
             // lblIDCurso
@@ -139,7 +138,7 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(272, 48);
+            this.label1.Location = new System.Drawing.Point(271, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(30, 13);
             this.label1.TabIndex = 13;
@@ -149,7 +148,7 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(260, 90);
+            this.label2.Location = new System.Drawing.Point(259, 90);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 13);
             this.label2.TabIndex = 14;
@@ -158,7 +157,7 @@
             // txtNota
             // 
             this.txtNota.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtNota.Location = new System.Drawing.Point(320, 45);
+            this.txtNota.Location = new System.Drawing.Point(319, 45);
             this.txtNota.Name = "txtNota";
             this.txtNota.Size = new System.Drawing.Size(191, 20);
             this.txtNota.TabIndex = 15;
@@ -167,7 +166,7 @@
             // txtCondicion
             // 
             this.txtCondicion.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtCondicion.Location = new System.Drawing.Point(320, 86);
+            this.txtCondicion.Location = new System.Drawing.Point(319, 86);
             this.txtCondicion.Name = "txtCondicion";
             this.txtCondicion.Size = new System.Drawing.Size(191, 20);
             this.txtCondicion.TabIndex = 16;
@@ -175,7 +174,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(517, 167);
+            this.btnCancelar.Location = new System.Drawing.Point(516, 167);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 1;
@@ -186,7 +185,7 @@
             // btnAceptar
             // 
             this.btnAceptar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAceptar.Location = new System.Drawing.Point(436, 167);
+            this.btnAceptar.Location = new System.Drawing.Point(435, 167);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 0;
@@ -201,7 +200,6 @@
             this.ClientSize = new System.Drawing.Size(624, 195);
             this.Controls.Add(this.tbInscripcion);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "IADesktop";

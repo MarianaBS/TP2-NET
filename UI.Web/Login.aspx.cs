@@ -51,7 +51,7 @@ namespace UI.Web
                         }
                         else
                         {
-                            lblLogin.Text = "Usuario no habilitado";
+                            lblLogin.Text = "Usuario no habilitado. Comuníquese con un administrador.";
                         }
                     } lblLogin.Text = "Usuario y/o contraseña incorrectos";
                 }             

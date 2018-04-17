@@ -16,7 +16,6 @@
         
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formMain));
             this.mnsPrincipal = new System.Windows.Forms.MenuStrip();
             this.mnuArchivo = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuArchivoDesconectarse = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,7 +46,7 @@
             this.mnuReportes});
             this.mnsPrincipal.Location = new System.Drawing.Point(0, 0);
             this.mnsPrincipal.Name = "mnsPrincipal";
-            this.mnsPrincipal.Size = new System.Drawing.Size(725, 24);
+            this.mnsPrincipal.Size = new System.Drawing.Size(684, 24);
             this.mnsPrincipal.TabIndex = 1;
             this.mnsPrincipal.Text = "menuStrip1";
             // 
@@ -196,11 +195,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.BackgroundImage = global::UI.Desktop.Properties.Resources._167984;
-            this.ClientSize = new System.Drawing.Size(725, 408);
+            this.ClientSize = new System.Drawing.Size(684, 408);
             this.Controls.Add(this.mnsPrincipal);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.mnsPrincipal;
             this.Name = "formMain";

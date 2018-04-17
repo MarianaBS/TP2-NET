@@ -3,12 +3,10 @@
   <siteMapNode url="~/Default.aspx" title="Menú Principal" >
     <siteMapNode url="~/Comisiones.aspx" title="Comisiones"/>
     <siteMapNode url="~/Cursos.aspx" title="Cursos" />
-    <siteMapNode url="~/DocentesCursos.aspx" title="Docentes Cursos" />
+    <siteMapNode url="~/DocentesCursos.aspx" title="Docentes por Curso" />
     <siteMapNode url="~/Especialidades.aspx" title="Especialidades"/>
     <siteMapNode url="~/AlumnosIncripciones.aspx" title="Inscripciones" />
     <siteMapNode url="~/Materias.aspx" title="Materias" />
-    <siteMapNode url="~/Modulos.aspx" title="Módulos" />
-    <siteMapNode url="~/Modulos_Usuarios.aspx" title="Módulos usuarios" />
     <siteMapNode url="~/Personas.aspx" title="Personas" />
     <siteMapNode url="~/Planes.aspx" title="Planes" />
     <siteMapNode url="~/Usuarios.aspx" title="Usuarios"  />

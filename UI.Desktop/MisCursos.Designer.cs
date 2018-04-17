@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MisCursos));
             this.gbCursos = new System.Windows.Forms.GroupBox();
             this.txtApyNom = new System.Windows.Forms.TextBox();
             this.lblApellidoYNom = new System.Windows.Forms.Label();
@@ -149,7 +148,6 @@
             this.Controls.Add(this.gbAlumInsc);
             this.Controls.Add(this.gbCursos);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MisCursos";
