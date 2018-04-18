@@ -45,7 +45,8 @@ namespace UI.Desktop
             mnuVerPersonas.Visible = enable;
             mnuVerPlanes.Visible = enable;
             mnuVerCursosDoc.Visible = enable;
-            mnuVerUsuarios.Visible = enable;                
+            mnuVerUsuarios.Visible = enable;
+            mnuVerMisCursos.Visible = !(enable);   
             
         }
         private void visibleDocente(bool enable)

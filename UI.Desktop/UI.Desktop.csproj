@@ -377,7 +377,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\2ED8~1.JPG" />
-    <Content Include="Login_37128.ico" />
     <Content Include="Resources\2ED8~11.JPG" />
     <None Include="Resources\2ED8~111.JPG" />
     <None Include="Resources\5DF3~1.JPG" />

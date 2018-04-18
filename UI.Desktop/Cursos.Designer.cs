@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formCursos));
             this.tspCursos = new System.Windows.Forms.ToolStripContainer();
             this.tlCursos = new System.Windows.Forms.TableLayoutPanel();
             this.dgvCursos = new System.Windows.Forms.DataGridView();
@@ -172,7 +171,7 @@
             this.tsbEliminar});
             this.tsUsuario.Location = new System.Drawing.Point(3, 0);
             this.tsUsuario.Name = "tsUsuario";
-            this.tsUsuario.Size = new System.Drawing.Size(112, 25);
+            this.tsUsuario.Size = new System.Drawing.Size(81, 25);
             this.tsUsuario.TabIndex = 1;
             // 
             // tsbNuevo
@@ -207,7 +206,6 @@
             this.ClientSize = new System.Drawing.Size(716, 404);
             this.Controls.Add(this.tspCursos);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "formCursos";

@@ -30,10 +30,14 @@ namespace UI.Desktop
             ia = ial.GetAll();
             foreach (AlumnoInscripcion aluI in ia)
             {
-                if (aluI.IDAlumno == IDPersona)
+                if (TipoUsuario != 2)
                 {
-                    ia1.Add(aluI);
+                    if (aluI.IDAlumno == IDPersona)
+                    {
+                        ia1.Add(aluI);
+                    }
                 }
+                else ia1.Add(aluI);
             }
             this.dgvInsCursos.DataSource = ia1;
         }

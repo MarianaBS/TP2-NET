@@ -31,10 +31,14 @@ namespace UI.Desktop
             dc = dcl.GetAll();
             foreach (Business.Entities.DocenteCurso dcu in dc)
             {
-                if (dcu.IDDocente == IDPersona)
+                if (TipoUsuario != 2)
                 {
-                    dc1i.Add(dcu);
+                    if (dcu.IDDocente == IDPersona)
+                    {
+                        dc1i.Add(dcu);
+                    }
                 }
+                else dc1i.Add(dcu);
             }
             this.dgvDocCursos.DataSource = dc1i;
         }

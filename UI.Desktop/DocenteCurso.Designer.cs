@@ -26,9 +26,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DocenteCurso));
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.tsPrincipal = new System.Windows.Forms.ToolStrip();
+            this.tsNuevo = new System.Windows.Forms.ToolStripButton();
+            this.tsEditar = new System.Windows.Forms.ToolStripButton();
+            this.tsBorrar = new System.Windows.Forms.ToolStripButton();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.dgvDocCursos = new System.Windows.Forms.DataGridView();
@@ -36,9 +38,6 @@
             this.id_curso = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id_docente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cargo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tsNuevo = new System.Windows.Forms.ToolStripButton();
-            this.tsEditar = new System.Windows.Forms.ToolStripButton();
-            this.tsBorrar = new System.Windows.Forms.ToolStripButton();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
             this.tsPrincipal.SuspendLayout();
@@ -51,7 +50,7 @@
             // toolStripContainer1.ContentPanel
             // 
             this.toolStripContainer1.ContentPanel.Controls.Add(this.tsPrincipal);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(551, 38);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(551, 13);
             this.toolStripContainer1.Location = new System.Drawing.Point(1, -4);
             this.toolStripContainer1.Name = "toolStripContainer1";
             this.toolStripContainer1.Size = new System.Drawing.Size(551, 38);
@@ -70,6 +69,36 @@
             this.tsPrincipal.Name = "tsPrincipal";
             this.tsPrincipal.Size = new System.Drawing.Size(548, 33);
             this.tsPrincipal.TabIndex = 0;
+            // 
+            // tsNuevo
+            // 
+            this.tsNuevo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsNuevo.Image = global::UI.Desktop.Properties.Resources.add_icon_icons1;
+            this.tsNuevo.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsNuevo.Name = "tsNuevo";
+            this.tsNuevo.Size = new System.Drawing.Size(23, 30);
+            this.tsNuevo.Text = "tsNuevo";
+            this.tsNuevo.Click += new System.EventHandler(this.tsNuevo_Click_1);
+            // 
+            // tsEditar
+            // 
+            this.tsEditar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsEditar.Image = global::UI.Desktop.Properties.Resources.edit_validated_40458;
+            this.tsEditar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsEditar.Name = "tsEditar";
+            this.tsEditar.Size = new System.Drawing.Size(23, 30);
+            this.tsEditar.Text = "tsEditar";
+            this.tsEditar.Click += new System.EventHandler(this.tsEditar_Click_1);
+            // 
+            // tsBorrar
+            // 
+            this.tsBorrar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsBorrar.Image = global::UI.Desktop.Properties.Resources.eliminar_cancelar_icono_4935_128;
+            this.tsBorrar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsBorrar.Name = "tsBorrar";
+            this.tsBorrar.Size = new System.Drawing.Size(23, 30);
+            this.tsBorrar.Text = "tsBorrar";
+            this.tsBorrar.Click += new System.EventHandler(this.tsBorrar_Click_1);
             // 
             // btnSalir
             // 
@@ -128,36 +157,11 @@
             this.cargo.HeaderText = "Cargo";
             this.cargo.Name = "cargo";
             // 
-            // tsNuevo
-            // 
-            this.tsNuevo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsNuevo.Image = global::UI.Desktop.Properties.Resources.add_icon_icons1;
-            this.tsNuevo.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsNuevo.Name = "tsNuevo";
-            this.tsNuevo.Size = new System.Drawing.Size(23, 30);
-            this.tsNuevo.Text = "tsNuevo";
             this.tsNuevo.Click += new System.EventHandler(this.tsNuevo_Click_1);
-            // 
-            // tsEditar
-            // 
-            this.tsEditar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsEditar.Image = global::UI.Desktop.Properties.Resources.edit_validated_40458;
-            this.tsEditar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsEditar.Name = "tsEditar";
-            this.tsEditar.Size = new System.Drawing.Size(23, 30);
-            this.tsEditar.Text = "tsEditar";
             this.tsEditar.Click += new System.EventHandler(this.tsEditar_Click_1);
-            // 
-            // tsBorrar
-            // 
-            this.tsBorrar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsBorrar.Image = global::UI.Desktop.Properties.Resources.eliminar_cancelar_icono_4935_128;
-            this.tsBorrar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsBorrar.Name = "tsBorrar";
-            this.tsBorrar.Size = new System.Drawing.Size(23, 30);
-            this.tsBorrar.Text = "tsBorrar";
             this.tsBorrar.Click += new System.EventHandler(this.tsBorrar_Click_1);
-            // 
+            
+
             // DocenteCurso
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -167,10 +171,10 @@
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.dgvDocCursos);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DocenteCurso";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inscripción Docentes";
+            this.Load += new System.EventHandler(this.DocenteCurso_Load);
             this.toolStripContainer1.ContentPanel.ResumeLayout(false);
             this.toolStripContainer1.ResumeLayout(false);
             this.toolStripContainer1.PerformLayout();

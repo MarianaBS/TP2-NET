@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Comisiones));
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.dgvComision = new System.Windows.Forms.DataGridView();
@@ -154,7 +153,7 @@
             this.tsbEliminar});
             this.tsPersona.Location = new System.Drawing.Point(3, 0);
             this.tsPersona.Name = "tsPersona";
-            this.tsPersona.Size = new System.Drawing.Size(112, 25);
+            this.tsPersona.Size = new System.Drawing.Size(81, 25);
             this.tsPersona.TabIndex = 2;
             // 
             // tsbNuevo
@@ -189,7 +188,6 @@
             this.ClientSize = new System.Drawing.Size(813, 366);
             this.Controls.Add(this.toolStripContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Comisiones";

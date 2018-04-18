@@ -33,7 +33,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Personas));
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.tlPersona = new System.Windows.Forms.TableLayoutPanel();
             this.dgvPersona = new System.Windows.Forms.DataGridView();
@@ -240,7 +239,7 @@
             this.tsbEliminar});
             this.tsPersona.Location = new System.Drawing.Point(3, 0);
             this.tsPersona.Name = "tsPersona";
-            this.tsPersona.Size = new System.Drawing.Size(112, 25);
+            this.tsPersona.Size = new System.Drawing.Size(81, 25);
             this.tsPersona.TabIndex = 1;
             // 
             // tsbNuevo
@@ -275,7 +274,6 @@
             this.ClientSize = new System.Drawing.Size(819, 372);
             this.Controls.Add(this.toolStripContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Personas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Personas";
